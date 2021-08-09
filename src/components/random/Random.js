@@ -23,7 +23,7 @@ const Random = () => {
             {random && <div className="random-drink">
                 <h2>Random Drink</h2>
                 <h3>{random.drinks[0].strDrink}</h3>
-                <img style={{height: '150px', width: '150px'}} src={random.drinks[0].strDrinkThumb} alt={random.drinks[0].strDrink} />
+                <img src={random.drinks[0].strDrinkThumb} alt={random.drinks[0].strDrink} />
                 </div>}
         </div>
     )
