@@ -12,7 +12,7 @@
   height: 100vh;
   color: var(--darker);
   display: grid;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   grid-template-columns: 1fr;
   grid-auto-rows: 80px 1fr 50px;
   grid-gap: 2px;
@@ -33,7 +33,7 @@
 
 .logo span {
   color: var(--purple);
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Suez One', serif;
   font-size: 1.5rem;
   letter-spacing: 2px;
   font-weight: 700;
@@ -56,7 +56,7 @@ h2 {
 }
 h3 {
   color: var(--purple);
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Suez One', serif;
   letter-spacing: 2px;
 }
 /* ===================================== 
@@ -65,7 +65,7 @@ h3 {
 input[type='text'] {
   width: 100%;
   padding: 0.4rem 0.6rem;
-  margin: 8px 0;
+  margin: 40px 100px;
   box-sizing: border-box;
   border: none;
   border-radius: 50vw;
@@ -104,15 +104,38 @@ input:focus {
   margin: 0.5rem 1rem;
 }
 .list-item {
-  display: flex;
   align-items: center;
   width: 300px;
   justify-content: space-between;
-  margin: 1rem auto;
+  margin: 20px 0 0;
   font-size: 1.5rem;
 }
+.itemName{
+  display: flex;
+  font-weight: normal;
+}
+.itemDetails{
+  margin-top: 0.5rem;
+  display: flex;
+  letter-spacing: 0.7px;
+}
+.itemLine{
+   margin: 20px 100px 0;
+   font-size: 30px;
+   font-weight: bold;
+}
+.cityLabel{
+  margin-right: 100px;
+  font-weight: bold;
+}
+
 .random-drink {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+.copyright{
+  float: left;
 }

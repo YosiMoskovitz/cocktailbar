@@ -49,11 +49,10 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, serif;
-  font-size: 1em;
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
 }
 pre {
-  white-space: pre-wrap;
   word-wrap: break-word;
 }
 q {
@@ -90,8 +89,8 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
-  font-size: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 130%;
   margin: 0;
 }
 button,
@@ -143,7 +142,7 @@ input::-moz-focus-inner {
 
 html {
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 *,

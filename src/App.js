@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Layout from './layout/Layout'
 import Search from './components/search/Search'
-import Random from './components/random/Random'
+// import Random from './components/random/Random'
 
 const App = () => {
   return (
@@ -11,7 +11,6 @@ const App = () => {
         <div className="search-container">
           <Search />
         </div>
-        <Random />
       </div>
     </Layout>
   );
