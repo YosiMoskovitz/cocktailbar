@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Credit
 
-This is build based on a project created by @gaagai and is modified a bit.
+This is build based on a [project](https://github.com/gaagai/react-basic-cocktail) created by [gaagai](https://github.com/gaagai).
