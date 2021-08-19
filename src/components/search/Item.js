@@ -13,7 +13,7 @@ const Item = ({ item }) => {
                 <label className="cityLabel">זמינות: </label>
                 <div className="available">{item.available}</div>
             </div>
-            <div className="itemLine">--------------------------------------------------</div>
+            <div className="itemLine">--------------------------------------</div>
         </div>
     )
 }
